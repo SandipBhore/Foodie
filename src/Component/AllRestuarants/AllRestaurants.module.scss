@@ -1,0 +1,212 @@
+.toggleMenu {
+  display: none;
+  position: absolute;
+  top: 40px;
+  margin: 0 10px;
+  height: 35px;
+  border-radius: 10rem;
+  width: 35px;
+  outline: none;
+  z-index: 1;
+  background-color: rgba(64, 194, 133, 0.693);
+  border-color: rgba(64, 194, 133, 0.693);
+}
+
+.main {
+  margin-top: 4.1rem !important;
+}
+
+.OfferSlider {
+  font-family: sans-serif;
+  display: flex;
+  align-items: center;
+  top: 10rem;
+  height: 30rem;
+  width: 100%;
+  background-color: #676a79;
+}
+
+.foodCards {
+  width: 80%;
+  margin-left: auto;
+  margin-top: 4rem;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+.span1 button {
+  font-size: 1.1rem;
+  border: none;
+  background: transparent;
+  padding: 0px 1.1rem;
+  color: #03045e;
+  font-weight: 500;
+  &:hover {
+    transition: all 0.3s linear;
+    border-bottom: 0.1rem;
+  }
+}
+.span1 button:active {
+  border-top: hidden;
+  border-left: hidden;
+  border-right: hidden;
+}
+
+.span1 {
+  margin-left: 0.7rem;
+  margin: auto;
+  width: 30rem;
+  display: inline-block;
+}
+
+.filterhead {
+  position: fixed;
+  display: flex;
+  flex-direction: row;
+  background-color: white;
+  width: 99%;
+  margin-left: auto;
+  margin-top: -6px;
+  // margin-bottom: auto;
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+}
+
+.filter[type="text"] {
+  // display: none;
+  padding: 4px;
+  border-radius: 5px;
+  // font-size: 1.1rem;
+  border-color: #ff5e5b;
+  text-align: center;
+  // text-transform: uppercase;
+  // width: 30rem;
+  margin: 1rem 1rem 1rem 10rem;
+  background: white;
+  // border: none;
+}
+
+.filterhead span {
+  letter-spacing: 0.1rem;
+  color: black;
+  margin: auto;
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+  background: white;
+}
+
+.topPick {
+  font-size: 2rem;
+  text-align: center;
+  color: #03045e;
+  text-align: center;
+  width: 30rem;
+}
+
+.topPick b {
+  font-weight: 510;
+  font-family: "Times New Roman", Times, serif;
+}
+
+@media only screen and(max-width: 990px) {
+  .foodCards {
+    width: 100%;
+    margin-top: 80px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+  }
+
+  .topPick {
+    margin-left: 1rem;
+    color: #03045e;
+    font-weight: 510;
+    font-family: "Times New Roman", Times, serif;
+    margin-top: auto !important;
+    float: left;
+    background-color: white;
+  }
+  .toggleMenu {
+    display: none;
+  }
+}
+
+@media only screen and(min-width: 600px) and(max-width: 800px) {
+  .foodCards {
+    width: 75%;
+    // margin-left: auto;
+    margin-top: 50px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+  }
+
+  .main {
+    margin-top: 6rem !important;
+  }
+
+  .filterhead {
+    margin: auto;
+    width: 98%;
+  }
+  .topPick {
+    font-size: 1.7rem;
+    // width: 100%;
+  }
+  .span1 {
+    // margin: 0 0.6rem;
+    // width: 55%;
+    // text-align: center;
+  }
+  .span1 button {
+    padding: 0px 0.35rem;
+    font-size: 1rem;
+  }
+  .filter[type="text"] {
+    font-size: 1rem;
+    margin: 0.5rem 0rem;
+    // width: 35%;
+  }
+}
+
+@media only screen and(max-width: 600px) {
+  .main {
+    margin-top: 6.1rem !important;
+  }
+  .toggleMenu {
+    display: block;
+  }
+
+  .foodCards {
+    width: 100%;
+    // margin-left: auto;
+    margin-top: 80px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+  }
+
+  .filterhead {
+    display: block;
+  }
+  .topPick {
+    font-size: 1.5rem;
+    width: 100%;
+  }
+  .span1 {
+    margin: 0 0.6rem;
+    width: 55%;
+  }
+  .span1 button {
+    padding: 0px 0.2rem;
+    font-size: 0.9rem;
+  }
+  .filter[type="text"] {
+    font-size: 0.8rem;
+    margin: 0.5rem 0rem;
+    width: 35%;
+  }
+}

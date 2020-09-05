@@ -1,0 +1,39 @@
+.checkoutPage {
+  width: 66%;
+  min-height: 90vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 100px;
+  margin-left: 230px;
+}
+.checkoutHeader {
+  width: 101%;
+  height: 40px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  box-shadow: 0px 0px 5px 2px rgba(0, 0, 0, 0.75);
+}
+.headerBlock {
+  text-transform: capitalize;
+  font-weight: 700;
+  width: 23%;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  &:last-child {
+    width: 8%;
+  }
+}
+.totalPrice {
+  margin-top: 30px;
+  margin-left: 680px;
+  margin-bottom: 30px;
+  font-size: 24px;
+}
+.emptyCart {
+  margin-top: 10px;
+  width: 100%;
+  height: 440px;
+  background-position: center;
+  background-size: cover;
+}

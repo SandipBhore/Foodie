@@ -1,0 +1,44 @@
+.Checkout_Item {
+  width: 100%;
+  min-height: 100px;
+  display: flex;
+  border-bottom: 2px solid gray;
+  padding: 15px 0;
+  font-size: 20px;
+  align-items: center;
+}
+.imageContainer {
+  width: 23%;
+  padding-right: 15px;
+  img {
+    width: 90%;
+    height: 90%;
+  }
+}
+.name,
+.price,
+.quantity {
+  width: 23%;
+  margin-left: 3px;
+}
+.name {
+  font-size: 16px;
+  font-weight: 600;
+  margin-left: 2px;
+}
+.quantity {
+  display: flex;
+}
+.value {
+  margin: 0px 8px;
+}
+.remove,
+.add {
+  cursor: pointer;
+}
+.remove:hover {
+  color: red;
+}
+.add:hover {
+  color: darkgreen;
+}

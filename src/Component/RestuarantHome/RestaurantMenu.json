@@ -1,0 +1,239 @@
+{
+
+    "id": 1,
+    "title": "Cusines",
+    "routeName": "restaurantCusines",
+    "items": [
+        {
+            "id": 1,
+            "name": "Special Choclate Milk Shake",
+            "imageUrl": "https://i.ibb.co/WW3yMp7/latte-macchiato-3669136-1920.jpg",
+            "price": 150
+          },
+      {
+        "id": 2,
+        "name": "Gulab Jamun",
+        "imageUrl": "https://i.ibb.co/kXgPXST/indian-sweet-371357-1920.jpg",
+        "price": 180 
+      },
+      {
+        "id": 3,
+        "name": "Stawberry Biscuits",
+        "imageUrl": "https://i.ibb.co/71ndGRg/macarons-2548827-1920.jpg",
+        "price": 99
+      },
+      {
+        "id": 4,
+        "name": " Special Pav Bhaji",
+        "imageUrl": "https://i.ibb.co/9NYHf6G/pav-bhaji-371377-1920.jpg",
+        "price": 75
+      },
+      {
+        "id": 5,
+        "name": "Hot Dog",
+        "imageUrl": "https://i.ibb.co/WfJYcT6/fast-food-2132863-1920.jpg",
+        "price": 180
+      },
+      {
+        "id": 6,
+        "name": "Big HamBurger",
+        "imageUrl": "https://i.ibb.co/gFhnWk8/hamburger-1238246-1920.jpg",
+        "price": 210
+      },
+      {
+        "id": 7,
+        "name": "Vedge Pizza",
+        "imageUrl": "https://i.ibb.co/qySHjHc/pizza-3007395-1920.jpg",
+        "price": 150
+      },
+      {
+        "id": 8,
+        "name": "Special Pizza",
+        "imageUrl": "https://i.ibb.co/sgVHWMr/piza-3010062-1920.jpg",
+        "price": 299
+      },
+      {
+        "id": 9,
+        "name": "Hot Shot Soup",
+        "imageUrl": "https://i.ibb.co/wC7mzm8/soup-3772559-1920.jpg",
+        "price": 160
+      },
+      {
+        "id": 10,
+        "name": "Simple Maggi",
+        "imageUrl": "https://i.ibb.co/bLKpRWd/food-1216048-1920.jpg",
+        "price": 100
+      },   {
+        "id": 11,
+        "name": "Fresh Orange Juice",
+        "imageUrl": "https://i.ibb.co/R4y4DwW/fresh-orange-juice-1614822-1920.jpg",
+        "price": 110
+      },   {
+        "id": 12,
+        "name": "Helthy Green Tea",
+        "imageUrl": "https://i.ibb.co/KLdTFrN/tee-1740871-1920.jpg",
+        "price": 80
+      },   {
+        "id": 13,
+        "name": "Baked choclate Cake",
+        "imageUrl": "https://i.ibb.co/FHVpfn5/baked-goods-1853261-1920.jpg",
+        "price": 160
+      },   {
+        "id": 14,
+        "name": "Special Dark Creamy Cake",
+        "imageUrl": "https://i.ibb.co/DK23Mww/cake-1971552-1920.jpg",
+        "price": 460
+      },   {
+        "id": 15,
+        "name": "Healthy Salad",
+        "imageUrl": "https://i.ibb.co/1T3c1Hg/salad-1878384-1920.jpg",
+        "price": 120
+      },   {
+        "id": 16,
+        "name": "Tiffin's Pan Cake ",
+        "imageUrl": "https://i.ibb.co/5h2M8vY/pancakes-1931089-1920.jpg",
+        "price": 170
+      },   {
+        "id": 17,
+        "name": "Stawberry Shake",
+        "imageUrl": "https://i.ibb.co/XjKwMxm/strawberry-2378617-1920.jpg",
+        "price": 120
+      },   {
+        "id": 18,
+        "name": "Guwhati Quark",
+        "imageUrl": "https://i.ibb.co/L0MwhYv/quark-3015579-1920.jpg",
+        "price": 180
+      },   {
+        "id": 19,
+        "name": "NorthIndian Tortellini",
+        "imageUrl": "https://i.ibb.co/QrWRgBS/tortellini-3137649-1920.jpg",
+        "price": 70
+      },   {
+        "id": 20,
+        "name": "Rice Salad Curry",
+        "imageUrl": "https://i.ibb.co/d4rYxhd/food-4073884-1920.jpg",
+        "price": 150
+      },   {
+        "id": 21,
+        "name": "Upma secialist",
+        "imageUrl": "https://i.ibb.co/YDZDbq7/upma-346484-1920.jpg",
+        "price": 60
+      },   {
+        "id": 22,
+        "name": "Rajasthani Medium Thali",
+        "imageUrl": "https://i.ibb.co/X3jhn1b/indian-food-2951094-1920.jpg",
+        "price": 360
+      },   {
+        "id": 23,
+        "name": "Chinese Gucci Soup",
+        "imageUrl": "https://i.ibb.co/kSGxWWG/soup-1429793-1920.jpg",
+        "price": 170
+      },   {
+        "id": 24,
+        "name": "Healthy Italian snack",
+        "imageUrl": "https://i.ibb.co/940Yr4n/close-up-1854245-1920.jpg",
+        "price": 860
+      },   {
+        "id": 25,
+        "name": "Vedge Biryani",
+        "imageUrl": "https://i.ibb.co/VByY0YZ/biryani-1141444-1920.jpg",
+        "price": 70
+      },   {
+        "id": 26,
+        "name": "Allo Matar Ghobi Sabji",
+        "imageUrl": "https://i.ibb.co/bXcSCk9/indian-food-3856044-1920.jpg",
+        "price": 99
+      },   {
+        "id": 27,
+        "name": "Gujarti Defla",
+        "imageUrl": "https://i.ibb.co/PhxNNxk/indian-1969797-1920.jpg",
+        "price": 50
+      },   {
+        "id": 28,
+        "name": "Korma special",
+        "imageUrl": "https://i.ibb.co/sgsShJT/korma-3856046-1920.jpg",
+        "price": 89
+      },   {
+        "id": 29,
+        "name": "Jhal Moori snack",
+        "imageUrl": "https://i.ibb.co/7gNqm6x/jhal-muri-827292-1920.jpg",
+        "price": 49
+      },   {
+        "id": 30,
+        "name": "Breakfast Omllate",
+        "imageUrl": "https://i.ibb.co/gSpkDbv/breakfast-932925-1920.jpg",
+        "price": 190
+      },   {
+        "id": 31,
+        "name": "Maharashtrian Small Thali",
+        "imageUrl": "https://i.ibb.co/7RR2zbN/india-2731817-1920.jpg",
+        "price": 199
+      },   {
+        "id": 32,
+        "name": "South Indian Dosa",
+        "imageUrl": "https://i.ibb.co/LZmBW3x/indian-1768906-1920.jpg",
+        "price": 159
+      },   {
+        "id": 33,
+        "name": "Fresh Jalebi",
+        "imageUrl": "https://i.ibb.co/fxGTbKQ/fresh-jalebi-818316-1920.jpg",
+        "price": 260
+      },   {
+        "id": 34,
+        "name": "Tukka Pani-Puri",
+        "imageUrl": "https://i.ibb.co/NKVt4vh/panipuri-74974-1920.jpg",
+        "price": 90
+      },   {
+        "id": 35,
+        "name": "Bihari Samosa",
+        "imageUrl": "https://i.ibb.co/ZKdg4xT/samosa-165850-1920.jpg",
+        "price": 50
+      },   {
+        "id": 36,
+        "name": "Bengali Rassogolla",
+        "imageUrl": "https://i.ibb.co/3pQfqss/sweets-577230-1920.jpg",
+        "price": 360
+      },   {
+        "id": 37,
+        "name": "Chicken Tikka",
+        "imageUrl": "https://i.ibb.co/JvB1bYS/meat-709346-1920.jpg",
+        "price": 490
+      },   {
+        "id": 38,
+        "name": "vada-poori-potato-sagoi special",
+        "imageUrl": "https://i.ibb.co/NsL9QXJ/vada-poori-potato-sago-371366-1920.jpg",
+        "price": 170
+      },   {
+        "id": 39,
+        "name": "Chicken Biryani",
+        "imageUrl": "https://i.ibb.co/ZRr6sRK/rice-4601049-1920.jpg",
+        "price": 389
+      },   {
+        "id": 40,
+        "name": "Nadkulla Idli",
+        "imageUrl": "https://i.ibb.co/pxWkrpy/breakfast-2408818-1920.jpg",
+        "price": 60
+      },   {
+        "id": 41,
+        "name": "Vedge Paratha Rolls",
+        "imageUrl": "https://i.ibb.co/GRZQBmb/indian-food-5015066-1920.jpg",
+        "price": 190
+      },   {
+        "id": 42,
+        "name": "Chicken Leg Piece",
+        "imageUrl": "https://i.ibb.co/0KZbFRf/chicken-2451482-1920.jpg",
+        "price":599
+      },   {
+        "id": 43,
+        "name": " Pure Stawberry Creamy dish",
+        "imageUrl": "https://i.ibb.co/0KZbFRf/chicken-2451482-1920.jpg",
+        "price": 990
+      },   {
+        "id": 44,
+        "name": "Family Size Hamburger",
+        "imageUrl": "https://i.ibb.co/gFhnWk8/hamburger-1238246-1920.jpg",
+        "price": 666
+      }
+   
+    ]
+  }

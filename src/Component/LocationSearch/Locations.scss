@@ -1,0 +1,29 @@
+.locationCard{
+    background-color: Transparent;
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.3);
+  transition: 0.3s;
+  width: 80%;
+  border-radius: 5px;
+  margin:15px 10px;
+  text-align:centre;
+}
+
+.locationCard:hover {
+  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.5);
+}
+.locationCard a{
+    color:black;
+    text-decoration:none;
+}
+.locationCard a h3{
+  font-size: 20px; 
+  padding:5px 0;
+  color:black;
+}
+
+.locationCard p{
+  font-size: 12px; 
+  padding:8px 0;
+  text-align: center;
+  color:black;
+}

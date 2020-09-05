@@ -1,0 +1,18 @@
+.scrollToTop {
+  position: fixed;
+  right: 10px;
+  bottom: 10px;
+  width: 50px;
+  height: 50px;
+  border: none;
+  border-radius: 50%;
+  background: rgba(51, 102, 255, 0.7);
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+  color: #fff;
+  outline: none;
+  cursor: pointer;
+  display: none;
+}
+#scrollToTop:active {
+  background: rgba(51, 102, 255, 1);
+}

@@ -1,0 +1,82 @@
+
+.main{
+  display: flex;
+  flex-direction: column;
+  margin-top: 8px;
+  margin: auto;
+  width: 75%;
+  justify-content: center;
+  margin-left: 15%;
+  margin-right: 5px;
+}
+.ul {
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  font-size: 1rem;
+  // padding-left: 20px;
+}
+
+.inputs {
+  margin-right: 8px;
+  color: blue;
+}
+
+.cuisines {
+  height: 200px;
+  overflow: scroll;
+  overflow-x: hidden;
+  // padding-left: 50px;
+  list-style: none;
+}
+.cuisines li {
+  margin: 0.5rem 0;
+}
+.ul li {
+  margin: 0.5rem 0;
+}
+.cuisines li:first {
+  margin-top: 1rem;
+}
+
+li {
+  // margin: 0.5rem 0;
+  // margin: 0px !important;
+  color: black;
+  /* background-color: blue; */
+  text-decoration: none;
+  font-size: 1rem;
+}
+
+.filter[type="text"] {
+  padding: 1px;
+  width: auto;
+  // margin: auto;
+  background: white;
+  border-radius: 5px;
+  text-align: center;
+  font-size: 14px;
+  border-color: lightcoral;
+  text-transform: uppercase;
+}
+
+.filterBottom {
+  display: flex;
+  // justify-content: center;
+  margin-bottom: 10px;
+}
+
+.filterBottom button {
+  width: 38%;
+  // text-align: center;S
+  margin: 2px 5px;
+}
+
+.p {
+  color: navy;
+  margin-top: 2px;
+  font-weight: 500;
+  font-size: 1.2rem;
+  margin-bottom: 0.3rem !important;
+}

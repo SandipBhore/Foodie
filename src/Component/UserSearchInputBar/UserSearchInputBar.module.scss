@@ -1,0 +1,107 @@
+// form.UserResponse input[type="text"] {
+//   padding: 10px;
+//   font-size: 18px;
+//   border: 1px solid grey;
+//   float: left;
+//   width: 80%;
+//   background: #f1f1f1;
+//   border-radius: 2px;
+// }
+
+// form.UserResponse input[type="text"]:focus {
+//   border: none !important;
+//   outline: none !important;
+// }
+// form.UserResponse button:focus {
+//   border: none !important;
+//   outline: none !important;
+// }
+// form.UserResponse button {
+//   float: left;
+//   width: 20%;
+//   padding: 10px;
+//   background: #ff5e5b;
+//   color: white;
+//   font-size: 17px;
+//   border: 1px solid grey;
+//   border-left: none;
+//   cursor: pointer;
+//   border-radius: 2px;
+//   margin-top: 9px;
+// }
+
+// form.UserResponse button:hover {
+//   background: #0b7dda;
+//   transform: rotate(180deg);
+//   transition: all 0.4s linear;
+//   color: whitesmoke;
+// }
+
+// form.UserResponse::after {
+//   content: "";
+//   clear: both;
+//   display: table;
+// }
+// .handleForm {
+//   text-align: center;
+//   margin: auto;
+//   width: 30%;
+//   margin-top: 70px;
+// }
+
+.handleForm {
+  text-align: center;
+  margin: auto;
+  width: 30%;
+  margin-top: 50px;
+}
+
+.UserResponse input[type="text"] {
+  border-bottom: none !important;
+  padding: 10px;
+  font-size: 17px;
+  float: left;
+  width: 76%;
+  background: #f1f1f1;
+  border-radius: 5px;
+  border: none;
+}
+
+.UserResponse input[type="text"]:focus {
+  border: none !important;
+  outline: none !important;
+}
+.UserResponse input[type="text"]::placeholder {
+  font-size: 16px;
+}
+.UserResponse button {
+  display: inline;
+  width: 18%;
+  padding: 10px;
+  background: #ff5e5b;
+  color: white;
+  font-size: 17px;
+  border: 1px solid grey;
+  border-left: none;
+  cursor: pointer;
+  border-radius: 5px;
+  margin-top: 9px;
+  margin-left: none !important;
+}
+
+.UserResponse button:hover {
+  background: #0b7dda;
+  transform: rotate(180deg);
+  transition: all 0.4s linear;
+}
+
+.UserResponse button:focus {
+  border: none !important;
+  outline: none !important;
+}
+
+form.UserResponse::after {
+  content: "";
+  clear: both;
+  display: table;
+}

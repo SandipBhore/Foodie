@@ -1,0 +1,117 @@
+.main_container {
+  width: 100%;
+  height: 60px;
+  display: flex;
+  background-color: #ff5e5b;
+  align-items: center !important;
+  justify-content: space-between;
+  position: fixed;
+  top: 0;
+  z-index: 1;
+}
+
+.logo {
+  cursor: pointer;
+  width: 70px;
+  height: 60px;
+  margin: 0px 0px;
+  color: black;
+  margin: 0px 5px;
+  border-radius: 5px;
+}
+
+.logo1 {
+  width: 75%;
+  margin: 0px 10px;
+  color: black;
+  font-size: calc(14px + 1vw);
+}
+
+.tagline {
+  color: whitesmoke;
+  font-style: italic;
+  font-size: 13px;
+  margin: 3px 12px;
+}
+.Navigation_list {
+  display: flex;
+  list-style: none;
+  width: 26%;
+  justify-content: space-around;
+  cursor: pointer;
+  margin-top: 16px;
+  li {
+    font-size: calc(11px + 0.5vw);
+  }
+}
+
+li :hover {
+  color: whitesmoke !important;
+  transition: all 0.3s linear !important;
+}
+.handleLogo {
+  width: 75%;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+.trans {
+  transform: rotate(180deg);
+}
+.activelink {
+  background-color: rgba(255, 255, 255, 0.3);
+  color: #1b1464 !important;
+  border-radius: 5px;
+  padding: 4px;
+}
+.cart_icon {
+  width: 30px;
+  height: 24px;
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+}
+.shopping_icon {
+  width: 24px;
+  height: 24px;
+}
+.no_item_count {
+  position: absolute;
+  font-weight: 8px;
+  font-weight: bold;
+  bottom: 0;
+  margin-right: 1px;
+  margin-top: 15px;
+  font-size: 14px;
+}
+.item_count {
+  position: absolute;
+  font-weight: 8px;
+  font-weight: bold;
+  bottom: 0;
+  margin-right: 1px;
+  margin-top: 17px;
+  font-size: 14px;
+  color: green;
+}
+@media only screen and (max-width: 786px) {
+  .Navigation_list {
+    flex-direction: column;
+    align-items: flex-end;
+    justify-content: center;
+  }
+  .activelink {
+    background-color: rgba(255, 255, 255, 0.3);
+    color: #1b1464 !important;
+    border-radius: 5px;
+    padding: 0px !important;
+  }
+  .main_container {
+    height: 70px;
+  }
+  .tagline {
+    display: none;
+  }
+}

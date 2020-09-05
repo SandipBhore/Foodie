@@ -1,0 +1,63 @@
+.StripeButton {
+  margin-bottom: 40px;
+}
+.duplicateStripeButton {
+  margin-left: 5px;
+  padding: 7px 12px;
+  background-color: #0096c7;
+  color: black;
+  font-weight: 600;
+  opacity: 0.5;
+  font-family: Geneva, Tahoma, sans-serif;
+  border-radius: 5px;
+  border: 1px solid #023e8a;
+  cursor: pointer;
+}
+.modalselect select {
+  width: 80%;
+  margin-top: 8px;
+  height: 30px;
+}
+.modalcheckbox {
+  width: 80%;
+  display: flex;
+  justify-content: flex-start;
+  padding: 0;
+
+  margin: 18px auto;
+}
+.modalcheckbox input {
+  width: 10%;
+}
+.modaldeclaration {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  width: 90%;
+  font-size: 13px;
+}
+
+.modalButton {
+  padding: 8px;
+  margin-top: 15px;
+  cursor: pointer;
+  background-color: green;
+  color: whitesmoke;
+  border-radius: 5px;
+  &:hover {
+    color: black;
+  }
+}
+.modalTextArea {
+  margin-top: 8px;
+  font-size: 14px;
+}
+.phone {
+  width: 70%;
+}
+.verifyPhone {
+  padding: 5px;
+  background-color: green;
+  color: whitesmoke;
+  cursor: pointer;
+}
